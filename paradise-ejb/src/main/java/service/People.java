@@ -18,10 +18,9 @@ public class People implements PeopleLocal {
     public void send(){
     	System.err.println("sended");
     }
-    
     @Override
-    public void send2(){
-    	System.err.println("sended2");
+    public String job(){
+    	return "job";
     }
 
 }
